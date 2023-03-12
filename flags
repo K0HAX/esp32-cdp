@@ -1,0 +1,10 @@
+from flags import flags
+class w5500_cfg_registers(flags):
+     LNK = 0
+     SPD = 1
+     DPX = 2
+     OPMDC1 = 3
+     OPMDC2 = 4
+     OPMDC3 = 5
+     OPMD = 6
+     RST = 7
